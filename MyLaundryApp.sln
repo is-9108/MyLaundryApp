@@ -10,6 +10,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLaundryApp.Application", "src\MyLaundryApp.Application\MyLaundryApp.Application.csproj", "{FB33E4B9-153A-4C27-BF62-643123322D0E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLaundryApp.Infrastructure", "src\MyLaundryApp.Infrastructure\MyLaundryApp.Infrastructure.csproj", "{219D4193-00A5-4B29-8CBF-29EDCFCFB123}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7AD77AEA-7D5A-4F75-BE45-2B78DD78EA88} = {7AD77AEA-7D5A-4F75-BE45-2B78DD78EA88}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLaundryApp.Presentation", "src\MyLaundryApp.Presentation\MyLaundryApp.Presentation.csproj", "{A6D1705F-0871-466D-A6B8-CAB0D1F4341A}"
 EndProject

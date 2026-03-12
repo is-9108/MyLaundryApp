@@ -5,5 +5,5 @@ namespace MyLaundryApp.Application.Common;
 /// </summary>
 public interface IUseCase<in TRequest, TResponse>
 {
-    Task<TResponse> ExecuteAsync(TRequest request, CancellationToken cancellationToken = default);
+    Task<TResponse> JudgeLaundly(TRequest request,  CancellationToken cancellationToken = default);
 }
