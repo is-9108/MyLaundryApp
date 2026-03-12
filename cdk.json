@@ -1,0 +1,12 @@
+{
+  "app": "dotnet run --project cdk/MyLaundryApp.Cdk/MyLaundryApp.Cdk.csproj",
+  "watch": {
+    "include": ["src/**", "cdk/**"],
+    "exclude": ["**/bin/**", "**/obj/**"]
+  },
+  "context": {
+    "@aws-cdk/aws-lambda:recognizeLayerVersion": true,
+    "@aws-cdk/core:checkSecretUsage": true,
+    "@aws-cdk/core:target-partitions": ["aws", "aws-cn"]
+  }
+}
